@@ -1,0 +1,30 @@
+name: elite_golf_pro
+description: A state-of-the-art golf app for iOS and Android.
+version: 1.0.0
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.5.0
+  geolocator: ^9.0.2
+  tflite_flutter: ^0.9.0
+  firebase_core: ^2.4.0
+  firebase_auth: ^4.2.0
+  cloud_firestore: ^4.3.0
+  health: ^4.0.0
+  ar_flutter_plugin: ^0.7.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  fl_chart: ^0.55.2
+  riverpod: ^2.1.1
+  flutter_riverpod: ^2.1.1
+  cupertino_icons: ^1.0.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.3.2
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/swing_model.tflite
